@@ -12,7 +12,6 @@ class Program
             Console.Write("Enter number: ");
             string input = Console.ReadLine();
 
-            // Validación para asegurarse que solo se acepten números válidos
             bool isNumber = int.TryParse(input, out int number);
 
             if (!isNumber)
